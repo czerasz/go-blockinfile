@@ -1,3 +1,10 @@
+## [0.2.10](https://github.com/czerasz/go-blockinfile/compare/v0.2.9...v0.2.10) (2020-07-15)
+
+
+### Bug Fixes
+
+* goreleaser checksum tempalte ([d617d8b](https://github.com/czerasz/go-blockinfile/commit/d617d8bcc0152d36c37d6b6c9287c1da751efcdd))
+
 ## [0.2.9](https://github.com/czerasz/go-blockinfile/compare/v0.2.8...v0.2.9) (2020-07-15)
 
 
