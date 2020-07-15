@@ -1,3 +1,6 @@
+![test](https://github.com/czerasz/go-blockinfile/workflows/test/badge.svg)
+![lint](https://github.com/czerasz/go-blockinfile/workflows/lint/badge.svg)
+
 # Blockinfile the Golang version
 
 Makes sure provided content block is inside the specified file.
