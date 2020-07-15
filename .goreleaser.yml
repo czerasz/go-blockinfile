@@ -36,3 +36,8 @@ archives:
   - id: "blockinfile"
     builds: ["blockinfile"]
     format: binary
+    # Archive name template
+    name_template: "{{ .Binary }}-v{{ .Version }}-{{ .Os }}-{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}-{{ .Mips }}{{ end }}"
+
+checksum:
+  name_template: "{{ .Binary }}.sha256sum"
