@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/czerasz/go-blockinfile/compare/v0.2.4...v0.2.5) (2020-07-15)
+
+
+### Bug Fixes
+
+* release workflow trigger ([202e4ea](https://github.com/czerasz/go-blockinfile/commit/202e4ea7aa9941b8e76cf062254cb3233ac020fc))
+
 ## [0.2.3](https://github.com/czerasz/go-blockinfile/compare/v0.2.2...v0.2.3) (2020-07-15)
 
 
