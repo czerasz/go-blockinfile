@@ -1,3 +1,10 @@
+## [0.2.9](https://github.com/czerasz/go-blockinfile/compare/v0.2.8...v0.2.9) (2020-07-15)
+
+
+### Configuration
+
+* change goreleaser archive and checksum name templates ([e8eede2](https://github.com/czerasz/go-blockinfile/commit/e8eede26d4b88d446fa2bbb74d13cf2162d5a9c2))
+
 ## [0.2.8](https://github.com/czerasz/go-blockinfile/compare/v0.2.7...v0.2.8) (2020-07-15)
 
 
