@@ -1,3 +1,10 @@
+## [0.2.8](https://github.com/czerasz/go-blockinfile/compare/v0.2.7...v0.2.8) (2020-07-15)
+
+
+### Bug Fixes
+
+* limit trigger to released ([7b1d474](https://github.com/czerasz/go-blockinfile/commit/7b1d474e5a15c222615f7499e22df4c46063081a))
+
 ## [0.2.7](https://github.com/czerasz/go-blockinfile/compare/v0.2.6...v0.2.7) (2020-07-15)
 
 
