@@ -7,7 +7,7 @@ on:
     tags:
       - '*'
   release:
-    types: [released]
+    types: [released, published, created]
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
