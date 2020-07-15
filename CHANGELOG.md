@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/czerasz/go-blockinfile/compare/v0.2.1...v0.2.2) (2020-07-15)
+
+
+### Bug Fixes
+
+* release as binary ([71ba257](https://github.com/czerasz/go-blockinfile/commit/71ba257cfc61b2741ebf36b67dd9afa68ffc60a1))
+
 # [0.2.0](https://github.com/czerasz/go-blockinfile/compare/v0.1.0...v0.2.0) (2020-07-15)
 
 
