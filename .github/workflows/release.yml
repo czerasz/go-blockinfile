@@ -6,8 +6,8 @@ on:
   push:
     tags:
       - '*'
-    release:
-
+  release:
+    types: [released]
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
