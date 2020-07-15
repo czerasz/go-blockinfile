@@ -1,3 +1,10 @@
+## [0.2.7](https://github.com/czerasz/go-blockinfile/compare/v0.2.6...v0.2.7) (2020-07-15)
+
+
+### Bug Fixes
+
+* use custom release token ([270e2a3](https://github.com/czerasz/go-blockinfile/commit/270e2a32a546207e336525552639ec3663071f05))
+
 ## [0.2.6](https://github.com/czerasz/go-blockinfile/compare/v0.2.5...v0.2.6) (2020-07-15)
 
 
