@@ -16,8 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install semantic-release library with dependencies
-        run: npm install -g semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog
+        run: npm install semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog
       - name: Run semantic-release
-        run: semantic-release
+        run: ./node_modules/.bin/semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
