@@ -5,10 +5,8 @@ name: lint
 on:
   workflow_dispatch:
   push:
-    tags:
-      - v*
     branches:
-      - master
+      - '**'
   pull_request:
 
 jobs:
