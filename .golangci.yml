@@ -1,0 +1,56 @@
+linters:
+  enable:
+    - stylecheck
+    - interfacer
+    - unconvert
+    - goconst
+    - goconst
+    - gocyclo
+    - gocognit
+    - asciicheck
+    - gofmt
+    - goimports
+    - maligned
+    - depguard
+    - misspell
+    - lll
+    - unparam
+    - dogsled
+    - nakedret
+    - prealloc
+    - scopelint
+    - gocritic
+    - gochecknoinits
+    - funlen
+    - whitespace
+    - wsl
+    - goprintffuncname
+    - gomnd
+    - gomodguard
+    - testpackage
+    - nestif
+    - exportloopref
+    - exhaustive
+    - nolintlint
+    - godot
+    - goerr113
+    - godox
+    # - gochecknoglobals
+
+linters-settings:
+  funlen:
+    lines: 75
+  # testpackage:
+  #   # regexp pattern to skip files
+  #   skip-regexp: blockinfile_test\.go
+
+issues:
+  # Excluding configuration per-path, per-linter, per-text and per-source
+  exclude-rules:
+    # Exclude lll issues for test files
+    - path: _test\.go
+      linters:
+        - lll
+  exclude:
+     - Using the variable on range scope `tc` in function literal
+     - package should be `blockinfile_test` instead of `blockinfile`
